@@ -17,6 +17,14 @@ they can be reorganized.
 
 ## Notes
 
+### 10/24 
+
+- github actions should be usable in conjunction with bioconductor_full to automate build tasks
+- continuous delivery concept is relevant for developers -- time-scale of response to changes can ultimately be defined by the developer
+- relationships between "build system" and "development infrastructure" including bug tracking etc. could be managed with technologies like gitlab
+- understand queueing infrastructure
+- regard a 'run' of the current BBS as a checkpoint for nonregression of newer implementation of the Build System
+
 ### From Slack #build-sys-evolve, Wed Oct 16, 2019
 
 - Vince Carey 3:19 PM: The current build system includes optimization and parallelization in different phases, @hpages can comment further.  How throughput can be increased cost-effectively with greater value to developers (Aaron has raised the most direct concern with difficulty of debugging on windows) is our basic question.  I am also concerned that the burden of build system  maintenance and operation, currently resting on Herve and Lori, should be shared and reduced. (edited) 
