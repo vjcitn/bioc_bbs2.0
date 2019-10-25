@@ -10,5 +10,12 @@ private repo for experimentation with build system infrastructure as code
 
 ## Github Action Notes
 
+*Huge* collection of github action-related material:
 - https://github.com/sdras/awesome-actions
 
+
+A language-specific collection of Actions:
+- [Rust](https://github.com/actions-rs)
+
+An example layout for a github action directory/repository:
+- https://github.com/maddox/actions/tree/master/sleep
